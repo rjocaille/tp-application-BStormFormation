@@ -8,6 +8,8 @@ namespace TP_FormationGit.Pages
     public class ErrorModel : PageModel
     {
         private readonly ILogger<ErrorModel> _logger;
+		
+		private bool VraiOuFaux;
 
         public ErrorModel(ILogger<ErrorModel> logger)
         {
